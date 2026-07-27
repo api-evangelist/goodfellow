@@ -1,9 +1,32 @@
 aid: goodfellow
 name: Goodfellow
-description: Goodfellow is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Goodfellow (Goodfellow Advanced Materials) is a global specialty-materials
+  supplier founded in 1946 and headquartered in Cambridgeshire, United Kingdom,
+  serving research, prototyping and specialized manufacturing markets in more
+  than 111 countries. Its catalog spans over 70,000 stocked products drawn from
+  700+ different materials in many forms, including metals, alloys, ceramics,
+  polymers, composites, compounds and glass, alongside custom fabrication and
+  laboratory testing services. Customers include universities, government
+  research facilities, laboratories and advanced manufacturers, served through
+  subsidiaries in the United States, China, France and Germany. Goodfellow was
+  acquired by Battery Ventures in 2021 to help digitize its operations and fund
+  materials acquisitions. Goodfellow is a business-to-business e-commerce and
+  catalog operation; it does not currently publish a public developer API,
+  developer portal, SDKs or webhooks.
 url: https://raw.githubusercontent.com/api-evangelist/goodfellow/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.goodfellow.com/media/og_image/default/GF_Linear_logo_Advanced_650.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +35,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Advanced Materials
+- Specialty Materials
+- Metals
+- Ceramics
+- Polymers
+- Composites
+- Manufacturing
+- Research
+- Ecommerce
+- Laboratory Services
 apis: []
+common:
+- type: DomainSecurity
+  url: security/goodfellow-domain-security.yml
+- type: Website
+  url: https://www.goodfellow.com/usa
+- type: About
+  url: https://www.goodfellow.com/usa/about-the-goodfellow-group
+- type: Support
+  url: https://www.goodfellow.com/usa/contact-us
+- type: Blog
+  url: https://www.goodfellow.com/usa/resources/category/blog/
+- type: Pricing
+  url: https://www.goodfellow.com/usa/quote-request
+- type: TermsOfService
+  url: https://www.goodfellow.com/usa/legal/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.goodfellow.com/usa/legal/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

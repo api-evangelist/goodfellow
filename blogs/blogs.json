@@ -1,0 +1,14 @@
+{
+  "repo": "goodfellow",
+  "feeds": [
+    {
+      "source": "https://www.goodfellow.com/usa/contact-us",
+      "feed_url": "https://www.goodfellow.com/usa/contact-us",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
