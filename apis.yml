@@ -73,6 +73,11 @@ tags_raw:
 - Laboratory Services
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/battery-ventures/
+  name: Battery Ventures
+  x-relationship: acquired
+  x-evidence: "Goodfellow was acquired by Battery Ventures in 2021 to help digitize its operations and fund materials acquisitions."
 - type: DomainSecurity
   url: security/goodfellow-domain-security.yml
 - type: Website
